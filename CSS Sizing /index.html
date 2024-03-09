@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .Box {
+      border: 2px solid white;
+      height: auto;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .container {
+      border: 2px solid black;
+      width: 80vw;
+      min-height: 80vh;
+      margin: 23px auto;
+      font-size: 18px;
+      background-color: azure;
+    }
+    .container > div {
+      font-size: 2em;
+      border: 2px solid blue;
+      width: 50%;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .container > div > div > div {
+      font-size: 2em;
+      width: 50%;
+      border: 2px solid slateblue;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .mycont {
+      border: 2px solid blanchedalmond;
+      margin: 23px auto;
+      color: rgb(0, 0, 0);
+      /* width: 80vmin; */
+      /* width: 80vmax; */
+      width: 80vw;
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <div class="Box">This is Box #1</div>
+    <div class="container">
+      <h2>This is #1</h2>
+      <p class="mycont">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source.
+      </p>
+    </div>
+    <div class="Box">This is Box #2</div>
+    <div class="container">
+      <h2>This is #2</h2>
+      <p class="mycont">
+        Lorem Ipsum is not simply random text. It has roots in a piece of
+        classical Latin literature from 45 BC, making it over 2000 years old.
+        Richard McClintock, a Latin professor at Hampden-Sydney College in
+        Virginia, looked up one of the more obscure Latin words, consectetur,
+        from a Lorem Ipsum passage, and going through the cites of the word in
+        classical literature, discovered the undoubtable source.
+      </p>
+    </div>
+    <div class="container">
+      <p class="mycont">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi est hic
+        debitis impedit? Excepturi, eligendi corrupti ex beatae aperiam velit
+        deleniti error debitis sequi sapiente.
+      </p>
+    </div>
+  </body>
+</html>
