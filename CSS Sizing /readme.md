@@ -56,4 +56,6 @@ In Cascading Style Sheets (CSS), sizing units play a crucial role in defining th
 ### 2. **Grid Fraction (`fr`)**
 
 - **Description:** A flexible unit in a CSS Grid layout.
-- **Use Case:** Distributes available space within a grid container. 
+- **Use Case:** Distributes available space within a grid container.
+
+### Content Source : ChatGPT  
